@@ -1,0 +1,45 @@
+#vote, #under-18, #age-18 {
+  display: none;
+}
+
+.container {
+  font-style: italic;
+  font-family: fantasy;
+  color: purple;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+#drinks {
+  color: green;
+  background-color: pink;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#under-21 {
+  color: red;
+  background-color: teal;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+#age-18 {
+  color:purple;
+  background-color: lightgreen;
+  font-weight: bolder;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
