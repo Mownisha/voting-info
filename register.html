@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles3.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts3.js"></script>
+    <title>Voters page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter your details!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="age">Your age:</label>
+            <input id="age" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="place">Nearest voting place:</label>
+            <input id="place" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+
+      <div id="voter">
+        <h1>You have registered for the VOTER-ID card successfully!</h1><br>
+        <h2>Your details for confirmation!</h2><br>
+        <p>Your name                    :<span class="name"></span></p>
+        <p>Your age                     :<span class="age"></span></p>
+        <p>Your nearest polling location:<span class="place"></span></p>
+        <br>
+        <h3>You will get your VOTER ID soon.</h3>
+      </div>
+    </div>
+  </body>
+</html>
